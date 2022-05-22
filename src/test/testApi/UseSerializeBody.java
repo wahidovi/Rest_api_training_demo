@@ -42,7 +42,8 @@ public class UseSerializeBody {
                 "Badass money making",
                 "By Jen Sincero - ",
                 14.99,
-                3
+                3,
+                "category name"
         );
 
         var response = given().body(product).when().put(endpoint).then();
